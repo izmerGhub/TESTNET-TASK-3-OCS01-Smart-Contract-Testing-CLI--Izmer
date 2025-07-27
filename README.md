@@ -179,7 +179,8 @@ result: "OCS01: math & test token distribution contract (v.0.0.12)"
 press enter to continue...
 
 ...
-
+```
+```
 choice: 3️⃣
 
 --- claimToken ---
