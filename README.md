@@ -153,101 +153,202 @@ Use the number menu to test each feature:
 
 ✅ Test all 14 options to complete the task. Record outputs or screenshots if needed.
 
+```
 choice: 1️⃣
 
 --- greetCaller ---
+
 result: "Greetings, oct5VXSG3UmtQwgvVzhs6ojpwmvoFmDihyRoDrXLcR4h4bY! Welcome to OCS01."
 
+press enter to continue...
+
+--- ocs01 test client ---
+contract: octBUHw585BrAMPMLQvGuWx4vqEsybYH9N7a3WNj1WBwrDn
+your balance: 116.218314 oct (nonce: 22)
+
+select method:
+...
+```
+```
 choice: 2️⃣
 
 --- getSpec ---
+
 result: "OCS01: math & test token distribution contract (v.0.0.12)"
+
+press enter to continue...
+
+...
 
 choice: 3️⃣
 
 --- claimToken ---
-tx: <tx_hash>
-wait for confirmation? y/n: y
-waiting...
-confirmed (or error)
 
+tx: 038e3fb086a928de14b29b55771072163ea094f4cb8d34cdf0dca66e9f06c76e
+wait for confirmation? y/n: y
+waiting....
+error: api error:
+
+press enter to continue...
+
+...
+```
+```
+choice: 3️⃣
+
+--- claimToken ---
+
+tx: d844541396fed899d2022b0c75e1aa652f48b2876f229f4ed12f2cad380263e5
+wait for confirmation? y/n: y
+waiting........
+confirmed
+
+press enter to continue...
+
+...
+```
+```
 choice: 4️⃣
 
 --- getCredits ---
-address (e.g. octXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX): <address>
-result: "<token_balance>"
+address (e.g. octXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX): oct5VXSG3UmtQwgvVzhs6ojpwmvoFmDihyRoDrXLcR4h4bY
 
+result: "1000000000000"
+
+press enter to continue...
+
+...
+```
+```
 choice: 5️⃣
 
 --- dotProduct ---
-x1: <num>
-y1: <num>
-x2: <num>
-y2: <num>
-result: "<value>"
+x1: 1
+y1: 2
+x2: 3
+y2: 4
 
+result: "11"
+
+press enter to continue...
+
+...
+```
+```
 choice: 6️⃣
 
 --- vectorMagnitude ---
-x: <num>
-y: <num>
-result: "<value>"
+x: 1
+y: 2
 
+result: "2"
+
+press enter to continue...
+
+...
+```
+```
 choice: 7️⃣
 
 --- power ---
-base: <num>
-exponent (max: 255): <num>
-result: "<value>"
+base: 1
+exponent (max: 255): 5
 
+result: "1"
+
+press enter to continue...
+
+...
+```
+```
 choice: 8️⃣
 
 --- factorial ---
-n (max: 20): <num>
-result: "<value>"
+n (max: 20): 5
 
+result: "120"
+
+press enter to continue...
+
+...
+```
+```
 choice: 9️⃣
 
 --- fibonacci ---
-n (max: 100): <num>
-result: "<value>"
+n (max: 100): 54
 
+result: "86267571272"
+
+press enter to continue...
+
+...
+```
+```
 choice: 🔟
 
 --- gcd ---
-a: <num>
-b: <num>
-result: "<value>"
+a: 4
+b: 3
 
-choice: 1️⃣0️⃣
+result: "1"
 
---- isPrime ---
-n: <num>
-result: "<0 or none>"
+press enter to continue...
 
+...
+```
+```
 choice: 1️⃣1️⃣
 
---- matrixDeterminant2x2 ---
-a: <num>
-b: <num>
-c: <num>
-d: <num>
-result: "<value>"
+--- isPrime ---
+n: 1
 
+result: "0"
+
+press enter to continue...
+
+...
+```
+```
 choice: 1️⃣2️⃣
 
---- linearInterpolate ---
-x0: <num>
-y0: <num>
-x1: <num>
-y1: <num>
-x: <num>
-result: "<value>"
+--- matrixDeterminant2x2 ---
+a: 22
+b: 32
+c: 1
+d: 3
 
+result: "34"
+
+press enter to continue...
+
+...
+```
+```
 choice: 1️⃣3️⃣
 
+--- linearInterpolate ---
+x0: 1
+y0: 5
+x1: 3
+y1: 6
+x: 2
+
+result: "5"
+
+press enter to continue...
+
+...
+```
+```
+choice: 1️⃣4️⃣
+
 --- modularExponentiation ---
-base: <num>
-exp: <num>
-mod: <num>
-result: "<value>"
+base: 2
+exp: 5
+mod: 2
+
+result: "0"
+
+press enter to continue...
+```
