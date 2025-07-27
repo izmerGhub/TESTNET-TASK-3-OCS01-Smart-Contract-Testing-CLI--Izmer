@@ -179,20 +179,7 @@ result: "OCS01: math & test token distribution contract (v.0.0.12)"
 press enter to continue...
 
 ...
-```
-```
-choice: 3️⃣
 
---- claimToken ---
-
-tx: 038e3fb086a928de14b29b55771072163ea094f4cb8d34cdf0dca66e9f06c76e
-wait for confirmation? y/n: y
-waiting....
-error: api error:
-
-press enter to continue...
-
-...
 ```
 ```
 choice: 3️⃣
