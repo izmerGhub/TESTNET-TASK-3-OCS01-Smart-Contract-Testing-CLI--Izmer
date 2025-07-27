@@ -19,7 +19,6 @@ Compatible with:
 
 - ✅ Linux
 - ✅ macOS
-- ✅ Windows (not covered in this guide)
 
 ---
 
