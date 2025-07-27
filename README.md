@@ -153,3 +153,102 @@ Use the number menu to test each feature:
 | 1️⃣4️⃣  | modular exponentiation | Input: base, exp, mod → Output: (base^exp) % mod |
 
 ✅ Test all 14 options to complete the task. Record outputs or screenshots if needed.
+
+choice: 1️⃣
+
+--- greetCaller ---
+result: "Greetings, oct5VXSG3UmtQwgvVzhs6ojpwmvoFmDihyRoDrXLcR4h4bY! Welcome to OCS01."
+
+choice: 2️⃣
+
+--- getSpec ---
+result: "OCS01: math & test token distribution contract (v.0.0.12)"
+
+choice: 3️⃣
+
+--- claimToken ---
+tx: <tx_hash>
+wait for confirmation? y/n: y
+waiting...
+confirmed (or error)
+
+choice: 4️⃣
+
+--- getCredits ---
+address (e.g. octXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX): <address>
+result: "<token_balance>"
+
+choice: 5️⃣
+
+--- dotProduct ---
+x1: <num>
+y1: <num>
+x2: <num>
+y2: <num>
+result: "<value>"
+
+choice: 6️⃣
+
+--- vectorMagnitude ---
+x: <num>
+y: <num>
+result: "<value>"
+
+choice: 7️⃣
+
+--- power ---
+base: <num>
+exponent (max: 255): <num>
+result: "<value>"
+
+choice: 8️⃣
+
+--- factorial ---
+n (max: 20): <num>
+result: "<value>"
+
+choice: 9️⃣
+
+--- fibonacci ---
+n (max: 100): <num>
+result: "<value>"
+
+choice: 🔟
+
+--- gcd ---
+a: <num>
+b: <num>
+result: "<value>"
+
+choice: 1️⃣0️⃣
+
+--- isPrime ---
+n: <num>
+result: "<0 or none>"
+
+choice: 1️⃣1️⃣
+
+--- matrixDeterminant2x2 ---
+a: <num>
+b: <num>
+c: <num>
+d: <num>
+result: "<value>"
+
+choice: 1️⃣2️⃣
+
+--- linearInterpolate ---
+x0: <num>
+y0: <num>
+x1: <num>
+y1: <num>
+x: <num>
+result: "<value>"
+
+choice: 1️⃣3️⃣
+
+--- modularExponentiation ---
+base: <num>
+exp: <num>
+mod: <num>
+result: "<value>"
